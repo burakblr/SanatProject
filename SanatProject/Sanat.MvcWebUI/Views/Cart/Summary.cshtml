@@ -1,0 +1,25 @@
+﻿
+@using Sanat.MvcWebUI.Models
+@model Sanat.MvcWebUI.Models.Cart
+
+<style>
+    #cart{
+        color:white;
+    }
+
+</style>
+
+<ul class="navbar-nav  my-2 my-lg-0">
+ 
+        
+        <li class="nav-item">
+            <i id="cart" class="fa fa-cart-plus" aria-hidden="true"></i>
+            (@Model.CartLines.Count)
+        </li>
+       
+   
+
+
+</ul>
+
+
